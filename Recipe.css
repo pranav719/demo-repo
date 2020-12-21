@@ -1,0 +1,128 @@
+html, body, h1,h2,h3,ol,ul,li,p,a{
+	padding:0;
+	margin:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+}
+body{
+	padding:20px 20px 20px 20px;
+	background: #5f5f5f url(cover.jpg) center left repeat;
+	font-family:  Helvetica, Arial, "Times New Roman", sans-serif;
+}
+h1{
+	margin:10px 0 15px 0;
+	color:#ffffff;
+	text-align: center;
+}
+.photo{
+	list-style-type: none;
+	padding:0;
+}
+p{
+	color:#000000;
+}
+.photo li{
+	display:inline;
+	padding-left:11px;
+}
+.nav{
+	padding-left:0;
+	margin-left: 0;
+	border-left: 0;
+	text-align: center;
+}
+.nav a{
+	color:#0000af;
+	text-decoration:none;
+}
+.nav li{
+	display: inline;
+}
+.recipes{
+	list-style-type: none;
+	padding-left:0;
+}
+ul{
+	padding:0 0 0 50px;
+}
+ol{
+	padding:0 0 0 50px;
+}
+h3{
+	margin:15px 0 15px 0;
+	border-bottom: 1px solid #CCCCCC;
+	padding-bottom: 3px;
+	color:#1177bb;
+}
+.f{
+	border-bottom:0;
+}
+li{
+	color: #000000;
+}
+.photo li img{
+	width:150px;
+	height:150px;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration:underline;
+	color:darkred;
+}
+h2{
+	padding: 6px 3px 0 0;
+	border-bottom: 2px solid black;
+	margin: 10px 0 20px 0;
+	color:#1177bb;
+	text-align: center;
+	font-size: 26px;
+	font-weight:bold;
+}
+.recipes li{
+	border:1px solid#b56663;
+	padding-left:0;
+	padding-bottom: 20px;
+	background-color: #ffffff;
+}
+.recipes h3{
+	border-bottom:0;
+}
+.recipes a{
+	color:#7facaa;
+	text-decoration:none;
+}
+.header{
+	padding:10px 10px 10px 10px;
+	background-color: #b56663;
+}
+.header a{
+	color: #ffffff;
+}
+.main-content{
+	padding:20px 20px 20px 20px;
+	border: 1px solid #dddddd;
+	margin: 30px auto 0 auto;
+	width:650px;
+	background-color:#f0f0f0;
+}
+.f-img{
+	width: 650px;
+	height: 246px;
+	background: #ffffff url(cake2.jpg) top left repeat;
+}
+.f-img h3{
+	margin:0;
+	background-color: #333333;
+	color: #ffffff;
+	padding: 5px 0 5px 15px;
+	text-transform: uppercase;
+}
+.recipes img{
+	width: 120px;
+	height: 90px;
+	float: left;
+	padding-right:10px;
+}
